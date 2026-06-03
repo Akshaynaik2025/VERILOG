@@ -1,0 +1,5 @@
+#VERILOG
+AND
+OR
+XOR
+XNOR

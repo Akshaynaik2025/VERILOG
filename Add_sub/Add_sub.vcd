@@ -1,0 +1,174 @@
+$date
+	Sat Jun 27 22:25:30 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Add_sub_tb $end
+$var wire 4 ! s [3:0] $end
+$var wire 1 " c $end
+$var reg 4 # a [3:0] $end
+$var reg 4 $ b [3:0] $end
+$var reg 1 % m $end
+$scope module A1 $end
+$var wire 4 & a [3:0] $end
+$var wire 4 ' b [3:0] $end
+$var wire 4 ( bx [3:0] $end
+$var wire 1 % m $end
+$var wire 4 ) s [3:0] $end
+$var wire 1 * c3 $end
+$var wire 1 + c2 $end
+$var wire 1 , c1 $end
+$var wire 1 " c $end
+$scope module F1 $end
+$var wire 1 - a $end
+$var wire 1 . b $end
+$var wire 1 % c $end
+$var wire 1 , carry $end
+$var wire 1 / sum $end
+$upscope $end
+$scope module F2 $end
+$var wire 1 0 a $end
+$var wire 1 1 b $end
+$var wire 1 , c $end
+$var wire 1 + carry $end
+$var wire 1 2 sum $end
+$upscope $end
+$scope module F3 $end
+$var wire 1 3 a $end
+$var wire 1 4 b $end
+$var wire 1 + c $end
+$var wire 1 * carry $end
+$var wire 1 5 sum $end
+$upscope $end
+$scope module F4 $end
+$var wire 1 6 a $end
+$var wire 1 7 b $end
+$var wire 1 * c $end
+$var wire 1 " carry $end
+$var wire 1 8 sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+18
+07
+06
+05
+04
+13
+02
+11
+00
+0/
+1.
+1-
+1,
+1+
+1*
+b1000 )
+b11 (
+b11 '
+b101 &
+0%
+b11 $
+b101 #
+0"
+b1000 !
+$end
+#10
+0,
+0/
+b1000 !
+b1000 )
+02
+0.
+b10 (
+0-
+10
+b10 $
+b10 '
+b110 #
+b110 &
+#20
+1*
+05
+1,
+1+
+02
+1"
+0/
+b0 !
+b0 )
+08
+1.
+01
+b1 (
+1-
+16
+b1 $
+b1 '
+b1111 #
+b1111 &
+#30
+0+
+05
+12
+0.
+14
+17
+00
+06
+b1100 (
+b10 !
+b10 )
+0/
+b11 $
+b11 '
+b101 #
+b101 &
+1%
+#40
+0*
+0/
+15
+b110 !
+b110 )
+08
+1.
+b1101 (
+0-
+03
+16
+b10 $
+b10 '
+b1000 #
+b1000 &
+#50
+18
+1+
+1*
+0/
+12
+b1110 !
+b1110 )
+15
+0.
+11
+b1110 (
+1-
+10
+13
+b1 $
+b1 '
+b1111 #
+b1111 &
+#60

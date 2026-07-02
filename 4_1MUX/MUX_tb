@@ -1,0 +1,32 @@
+module MUX_tb;
+
+reg [3:0] I;
+reg [1:0] S;
+wire Y;
+
+MUX_41 uut (
+    .i(I),
+    .s(S),
+    .y(Y)
+);
+
+initial begin
+    // Generate VCD file
+    $dumpfile("MUX_tb.vcd");
+    $dumpvars(0, MUX_tb);
+
+    I = 4'b1010;
+
+    S = 2'b00; #10;
+    S = 2'b01; #10;
+    S = 2'b10; #10;
+    S = 2'b11; #10;
+
+    $finish;
+end
+
+initial begin
+    $monitor("Time=%0t I=%b S=%b Y=%b", $time, I, S, Y);
+end
+
+endmodule

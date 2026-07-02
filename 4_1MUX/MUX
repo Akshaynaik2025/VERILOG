@@ -1,0 +1,12 @@
+module MUX_41(
+	input [3:0] i,
+	input [1:0] s,
+	output y
+);
+wire [3:0] x;
+assign x[3] = s[1] & s[0] & i[3];
+assign x[2] = s[1] & (~s[0]) & i[2];
+assign x[1] = s[0] & (~s[1]) & i[1];
+assign x[0] = (~s[1]) & (~s[0]) & i[0];
+assign y= x[3] | x[2] |  x[1] | x[0];
+endmodule
